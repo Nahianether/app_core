@@ -9,6 +9,7 @@ dart_core/.flutter-plugins-dependencies
 dart_core/.packages
 dart_core/pubspec.lock
 dart_core/build/
+dart_core/android/.cxx/
 
 # Example app
 example/.dart_tool/
@@ -21,6 +22,11 @@ example/ios/Pods/
 example/ios/.symlinks/
 example/macos/Pods/
 example/macos/.symlinks/
+example/android/.gradle/
+example/android/.kotlin/
+example/android/local.properties
+example/android/*.iml
+example/android/app/*.iml
 
 # IDE
 .idea/

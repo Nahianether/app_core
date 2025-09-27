@@ -1,0 +1,21 @@
+PODS:
+  - app_core (0.1.0)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - app_core (from `.symlinks/plugins/app_core/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  app_core:
+    :path: ".symlinks/plugins/app_core/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  app_core: faf6aab3fda64a94b835a908a8430473d9bb828c
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2
