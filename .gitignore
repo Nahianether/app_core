@@ -1,0 +1,38 @@
+# Rust
+rust_core/target/
+rust_core/Cargo.lock
+
+# Dart/Flutter
+dart_core/.dart_tool/
+dart_core/.flutter-plugins
+dart_core/.flutter-plugins-dependencies
+dart_core/.packages
+dart_core/pubspec.lock
+dart_core/build/
+
+# Example app
+example/.dart_tool/
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/.packages
+example/pubspec.lock
+example/build/
+example/ios/Pods/
+example/ios/.symlinks/
+example/macos/Pods/
+example/macos/.symlinks/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated files
+dart_core/lib/app_core_bindings_generated.dart
+dart_core/src/rust_core.h
+
+# Setup instructions (for owner only)
+SETUP.md

@@ -1,0 +1,13 @@
+language = "C"
+braces = "SameLine"
+tab_width = 4
+documentation = true
+include_guard = "RUST_CORE_H"
+include_version = true
+
+[export]
+exclude = ["internal_", "private_"]
+
+[parse]
+parse_deps = false
+include = []
