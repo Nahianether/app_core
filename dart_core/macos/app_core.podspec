@@ -25,4 +25,6 @@ Production-ready Flutter FFI plugin with Rust backend.
     'DEFINES_MODULE' => 'YES',
     'OTHER_LDFLAGS' => '-force_load ${BUILT_PRODUCTS_DIR}/librust_core.a',
   }
+
+  s.vendored_libraries = 'librust_core.a'
 end
